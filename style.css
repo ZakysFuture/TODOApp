@@ -1,0 +1,55 @@
+* {margin: 0; padding: 0;}
+body
+{
+    background-color: #424242;
+    margin: 0 0;
+}
+.time-lines
+{
+    background-color: #212121;
+    top: 0%;
+    left: 0%;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.line-timeline{
+    background-color: gray;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    margin: 0 5%;
+
+}
+
+.day-timeline
+{
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    color: white;
+    background-color: #616161;
+    text-align: center;
+}
+
+.hour-timeline
+{
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: auto;
+    color: white;
+    background-color: #616161;
+    text-align: center;
+}
+
+.todo-list-leftbox{
+    top: 0;
+    left: 0;
+    width: 20vh;
+    height: 100%;
+    background-color: gray;
+}
