@@ -18,6 +18,8 @@ a:link, a:visited, a:active, a:hover{
 
 .outer-div{
     position: fixed;
+    display: flex;
+    align-items: center;
     top: 0;
     left: 0;
     width: 100%;
@@ -28,7 +30,6 @@ a:link, a:visited, a:active, a:hover{
 .iner-div{
     position: relative;
     display: flex;
-    top: 15%;
     width: 50vw;
     height: 65vh;
     background-color: white;

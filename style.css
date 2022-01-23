@@ -1,55 +1,62 @@
 * {margin: 0; padding: 0;}
-body
-{
-    background-color: #424242;
-    margin: 0 0;
+
+@font-face {
+    font-family: Outfit;
+    src: url(FontFamily/Outfit.ttf);
 }
-.time-lines
-{
-    background-color: #212121;
-    top: 0%;
-    left: 0%;
-    height: 10em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+@font-face {
+    font-family: LobsterRegular;
+    src: url(FontFamily/Lobster-Regular.ttf);
 }
-.line-timeline{
-    background-color: gray;
-    top: 0;
-    left: 0;
-    height: 1px;
+
+.main-div{
+    position: fixed;
+    top: 0px;
+    left: 0px;
     width: 100%;
-    margin: 0 5%;
-
-}
-
-.day-timeline
-{
-    top: 0;
-    left: 0;
-    height: 50%;
-    width: 100%;
-    color: white;
-    background-color: #616161;
-    text-align: center;
-}
-
-.hour-timeline
-{
-    top: 0;
-    left: 0;
-    height: 50%;
-    width: auto;
-    color: white;
-    background-color: #616161;
-    text-align: center;
-}
-
-.todo-list-leftbox{
-    top: 0;
-    left: 0;
-    width: 20vh;
     height: 100%;
-    background-color: gray;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg, rgba(233,30,99,1) 25%, rgba(123,31,162,1) 75%);
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: fit-content;
+    width: 100%;
+    background-color: #424242;
+    flex: 1;
+}
+
+.header ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.header li{
+    float: left;
+}
+
+.header img{
+    display: block;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+.header-h1{
+    color: #e0e0e0;
+    font-family: "LobsterRegular";
+    font-size: 4rem;
+}
+
+.header-text{
+    position: relative;
+    margin: 0 auto;
+    border: 5px solid white;
+    padding: 15px;
+    border-radius: 50px;
 }
