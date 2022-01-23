@@ -29,8 +29,8 @@ a:link, a:visited, a:active, a:hover{
     position: relative;
     display: grid;
     top: 15%;
-    width: 60em;
-    height: 40em;
+    width: 50vw;
+    height: 65vh;
     background-color: white;
     color: white;
     margin: 0 auto;
@@ -51,7 +51,7 @@ a:link, a:visited, a:active, a:hover{
 }
 
 .icon{
-    height: 200px;
+    height: 25vh;
     margin: auto;
 }
 
@@ -81,7 +81,7 @@ a:link, a:visited, a:active, a:hover{
 }
 
 input[type=text]{
-    width: 20em;
+    width: 14vw;
     margin: 4px 0;
     padding: 12px 15px;
     display: inline-block;
@@ -95,7 +95,7 @@ input:focus{
 }
 
 input[type=password]{
-    width: 20em;
+    width: 14vw;
     margin: 4px 0;
     padding: 12px 15px;
     display: inline-block;
@@ -125,7 +125,6 @@ input[type=submit]:hover{
 }
 
 label{
-    font-size: 0.9em;
     font-family: "Outfit";
 }
 
