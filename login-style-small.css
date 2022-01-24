@@ -30,8 +30,8 @@ a:link, a:visited, a:active, a:hover{
 .iner-div{
     position: relative;
     display: flex;
-    width: 50vw;
-    height: 65vh;
+    width: 70vw;
+    height: 80vh;
     background-color: white;
     margin: 0 auto;
     /*border: 1px solid #616161;*/
@@ -88,8 +88,8 @@ a:link, a:visited, a:active, a:hover{
 
 input[type=text]{
     width: 100%;
-    margin: 0.2vw 0;
-    padding: 0.65vw 1vw;
+    margin: 0.5vw 0;
+    padding: 1.5vw 2.5vw;
     box-sizing: border-box;
     border: none;
     border-radius: 50px;
@@ -101,8 +101,8 @@ input:focus{
 
 input[type=password]{
     width: 100%;
-    margin: 0.2vw 0;
-    padding: 0.65vw 1vw;
+    margin: 0.5vw 0;
+    padding: 1.5vw 2.5vw;
     box-sizing: border-box;
     border: none;
     border-radius: 50px;
@@ -111,8 +111,8 @@ input[type=password]{
 
 input[type=submit]{
     width: 100%;
-    margin: 1.2vw 0;
-    padding: 0.65vw 1vw;
+    margin: 3vw 0;
+    padding: 1.5vw 2vw;
     box-sizing: border-box;
     background-color: #4caf50;
     border: none;
@@ -129,8 +129,8 @@ input[type=submit]:hover{
 }
 
 .login-form-div > h1{
-    margin: 1.5vw 0px;
-    font-size: 3.5vw;
+    margin: 3vw 0px;
+    font-size: 8vw;
     font-family: "LobsterRegular";
     font-weight: bold;
     text-align: center;
@@ -138,7 +138,7 @@ input[type=submit]:hover{
 
 .login-form-div img{
     margin: auto 0.5vw;
-    width: 0.8vw;
+    width: 2.5vw;
     height: auto;
 }
 
@@ -146,7 +146,7 @@ input[type=submit]:hover{
     font-family: "Outfit";
     display: flex;
     flex-direction: row;
-    font-size: 0.8vw;    
+    font-size: 2.5vw;    
 }
 
 .line{
@@ -174,6 +174,7 @@ input[type=submit]:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
+    display: none;
 }
 .footer > img{
     max-width: 0.6vw;
@@ -193,19 +194,19 @@ input[type=submit]:hover{
 }
 
 .login-reset{
-    font-size: 0.7vw;
+    font-size: 2vw;
     color: gray;
     text-align: center;
 }
 
 .create-account-div{
     bottom: 0;
-    margin-bottom: 1vw;
+    margin-bottom: 1.5vw;
     text-align: center;
 }
 
 .create-account{
-    font-size: 0.7vw;
+    font-size: 2vw;
     color: gray;
     text-align: center;
 }
