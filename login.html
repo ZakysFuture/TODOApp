@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO | Login</title>
-    <link rel="stylesheet" media="screen and (max-width: 900px)" href="login-style-small.css">
-    <link rel="stylesheet" media="screen and (min-width: 900px)" href="login-style.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="css/login-style-small.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="css/login-style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <script src="js/login-script.js"></script>
 </head>
 <body>
     <div class="outer-div">
@@ -21,14 +26,14 @@
                     <form action="" class="login-form">
                         <div class="login-form-label">
                             <img src="Icons/account.png" alt="username icon" height="15px">
-                            <label for="Username"><strong>Username</strong></label>
+                            <label for="username"><strong>Username</strong></label>
                         </div>
-                        <input type="text" name="username" class="input-username">
+                        <input type="text" name="username" class="input-username" id="username">
                         <div class="login-form-label">
                             <img src="Icons/padlock.png" alt="password icon" height="15px">
-                            <label for="Password"><strong>Password</strong></label>
+                            <label for="password"><strong>Password</strong></label>
                         </div>
-                        <input type="password" name="password" class="input-password">
+                        <input type="password" name="password" class="input-password" id="password">
                         <input type="submit" value="LOGIN" class="input-submit">
                     </form>
                     <div class="login-reset-div">
