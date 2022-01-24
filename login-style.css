@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px){
+@media screen and (max-width: 1200px){
     .iner-div{
         width: 90%;
     }
