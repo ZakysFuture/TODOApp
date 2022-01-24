@@ -1,6 +1,9 @@
-@media screen and (min-width: 600px){
-    .iner-div{
-        width: 90%;
+@media screen and (max-width: 900px){
+    .login-left{
+        display: none;
+    }
+    .line{
+        display: none;
     }
 }
 
