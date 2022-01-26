@@ -2,22 +2,60 @@
 
 .outer-div{
     position: fixed;
+    display: flex;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    
+    align-items: center;
+    justify-content: center;
+}
+.iner-div{
+    position: relative;
+    width: 100%;
+    height: 95%;
+    /*background-color: thistle;*/
+    display: flex;
+    flex-direction: column;
 }
 
 .task-sidebar{
-    position: fixed;
+    position: relative;
     margin: 10px;
-    top: 0;
-    left: 0;
     height: 90%;
     width: 15%;
     background: #37474f;
     border: 2px solid #263238;
+    display: flex;
+    flex-direction: row;
+    color: #eeeeee;
+}
+
+.task-sidebar ul{
+    list-style-type: none;
+}
+.task-sidebar li{
+    padding: 3px;
+}
+
+.timeline-day{
+    height: 50px;
+    width: 95%;
+    background-color: #37474f;
+    border: 2px solid #263238;
+    align-self: center;
+    text-align: center;
+    color: #eeeeee;
+}
+.timeline-hour{
+    height: 50px;
+    width: 90%;
+    background-color: #37474f;
+    border: 2px solid #263238;
+    margin-top: 2px;
+    align-self: center;
+    text-align: center;
+    color: #eeeeee;
 }
