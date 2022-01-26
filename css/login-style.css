@@ -116,7 +116,7 @@ input[type=password]{
     background-color: #e0e0e0;
 }
 
-input[type=submit]{
+input[type=button]{
     width: 100%;
     margin: 1.2vw 0;
     padding: 0.65vw 1vw;
@@ -130,13 +130,13 @@ input[type=submit]{
 }
 
 
-input[type=submit]:hover{
+input[type=button]:hover{
     background-color: #43a047;
     color: white;
     transform: scale(1.05);
     transition-duration: 300ms;
 }
-input[type=submit]:not(:hover){
+input[type=button]:not(:hover){
     transition-duration: 300ms;
 }
 
@@ -208,7 +208,7 @@ input[type=submit]:not(:hover){
 }
 
 .login-reset-div:hover{
-    transform: scale(1.025) rotate(3deg);
+    transform: scale(1.025);
     color: #616161;
     transition-duration: 150ms;
 }
@@ -228,7 +228,7 @@ input[type=submit]:not(:hover){
     font-size: 0.7vw;
 }
 .create-account-div:hover{
-    transform: rotate(-3deg) scale(1.025);
+    transform: scale(1.025);
     color: #616161;
     transition-duration: 150ms;
 }

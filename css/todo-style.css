@@ -1,0 +1,23 @@
+* {margin: 0; padding: 0;}
+
+.outer-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+}
+
+.task-sidebar{
+    position: fixed;
+    margin: 10px;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 15%;
+    background: #37474f;
+    border: 2px solid #263238;
+}
