@@ -20,42 +20,67 @@
     display: flex;
     flex-direction: column;
 }
+.task-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.task-div-center{
+    background-color: gray;
+    width: calc(85% - 33px);
+    height: 100%;
+}
 
+/* Task sidebar */
 .task-sidebar{
     position: relative;
-    margin: 10px;
-    height: 90%;
+    margin-right: 10px;
+    height: 100%;
     width: 15%;
     background: #37474f;
     border: 2px solid #263238;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: #eeeeee;
 }
-
-.task-sidebar ul{
+.task-sidebar-header{
+    height: 30px;
+    width: 100%;
+    position: relative;
+    background-color: #4E5A5F;
+    border-bottom: 2px solid #263238;
+    text-align: center;
+}
+.task-sidebar-tasks ul{
     list-style-type: none;
 }
-.task-sidebar li{
+.task-sidebar-tasks li{
     padding: 3px;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1px solid #4E5A5F;
 }
-
+/* Time line days & hours */
 .timeline-day{
     height: 50px;
-    width: 95%;
+    width: 100%;
     background-color: #37474f;
     border: 2px solid #263238;
     align-self: center;
     text-align: center;
     color: #eeeeee;
+    font-size: 30px;
 }
 .timeline-hour{
     height: 50px;
-    width: 90%;
+    width: 100%;
     background-color: #37474f;
     border: 2px solid #263238;
     margin-top: 2px;
     align-self: center;
     text-align: center;
     color: #eeeeee;
+    font-size: 30px;
 }
