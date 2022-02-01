@@ -119,8 +119,8 @@
 
 .task-count{
     background-color: #eb2630d7;
-    border-radius: 50%;
-    font-size: 12px;
+    border-radius: 50px;
+    font-size: 11px;
     height: 15%;
 }
 
@@ -146,4 +146,53 @@
     width: calc((100% / 8) - 4px);
     border-left: 1px solid #263238;
     border-right: 1px solid #263238;
+}
+
+.cell-date-test{
+
+}
+
+.cell-task-count-test{
+    display: flex;
+    align-self: flex-start;
+    justify-content: end;
+}
+
+.task-count-test{
+    display: flex;
+    height: auto;
+    width: auto;
+    min-width: 11px;
+    min-height: 11px;
+    padding: 1.5px;
+    border: none;
+    background-color:#eb2630d7;
+    border-radius: 50px;
+    font-size: 9px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-date-test2{
+    position: relative;
+}
+
+.task-count-test2{
+    align-self: start;
+    position: relative;
+    right: 1%;
+    top: 0px;
+    left: auto;
+    display: flex;
+    height: auto;
+    width: auto;
+    min-width: 11px;
+    min-height: 11px;
+    padding: 1.5px;
+    border: none;
+    background-color:#eb2630d7;
+    border-radius: 50px;
+    font-size: 9px;
+    justify-content: center;
+    align-items: center;
 }
