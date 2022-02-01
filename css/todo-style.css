@@ -73,7 +73,7 @@
     background-color: #37474f;
     border: 2px solid #263238;
     color: #eeeeee;
-    font-size: 30px;
+    font-size: 28px;
     display: flex;
     flex-direction: row;
 }
@@ -87,9 +87,47 @@
     justify-content: center;
 }
 .col-day{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     border-left: 1px solid #263238;
     border-right: 1px solid #263238;
     width: calc((100% / 7) - 4px);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.cell-date{
+    width: 50%;
+    height: 100%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.cell-day-task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin-left: 2px;
+    margin-right: 2px; 
+}
+
+.task-count{
+    background-color: #eb2630d7;
+    border-radius: 50%;
+    font-size: 12px;
+    height: 15%;
+}
+
+.day{
+    font-size: 24px;
+    height: 85%;
+    width: 100%;
 }
 
 .timeline-hour{
@@ -99,7 +137,7 @@
     border: 2px solid #263238;
     margin-top: 2px;
     color: #eeeeee;
-    font-size: 30px;
+    font-size: 28px;
     display: flex;
     flex-direction: row;
 }
